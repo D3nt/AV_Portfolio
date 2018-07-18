@@ -15,12 +15,11 @@
 
 /* Footer Universal Description */
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  position: absolute;
+  left: 48.79rem;
+  top: 158.86rem;
   color: #222222;
-  text-align: center;}
+  font-size: 16px; }
 
 /* Body Universal Description */
 body {
@@ -73,6 +72,18 @@ a {
   font-size: 50px;
   color: #000000;
   letter-spacing: 1px; }
+#letstalk {
+  background: none;
+  border: 0;
+  position:absolute;
+  left: 41.64rem;
+  top: 137.29rem;
+  font-family: 'Oswald';
+  font-weight: bold;
+  font-size: 60px;
+  color: #222222;
+  letter-spacing: 1px;
+  text-align: center; }
 
 .verticalline {
   border-left: 6px solid;
@@ -109,6 +120,14 @@ a {
   top: 55.07rem;
   left: 32.64rem;
 }
+.connectbuttonlinkedinwork {
+  border: 0;
+  width: 4.29rem;
+  height: 4.29rem;
+  position: absolute;
+  top: 144.36rem;
+  left: 45.36rem;
+}
 
 .connectbuttonemail {
   border: 0;
@@ -118,11 +137,27 @@ a {
   top: 55.07rem;
   left: 35.64rem;
 }
+.connectbuttonemailwork {
+  border: 0;
+  width: 4.29rem;
+  height: 4.29rem;
+  position: absolute;
+  top: 144.36rem;
+  left: 50.64rem;
+}
 
 .image1 {
   position: absolute;
   top: 19.79rem;
   left: 9.29rem;
+}
+.caption1 {
+  position: absolute;
+  top: 17.79rem;
+  left: 9.29rem;
+  font-size: 20px;
+  color: #222222;
+  letter-spacing: 1px;
 }
 
 .image2 {
@@ -130,11 +165,27 @@ a {
   top: 33.29rem;
   left: 52.07rem;
 }
+.caption2 {
+  position: absolute;
+  top: 31.21rem;
+  left: 54.79rem;
+  font-size: 20px;
+  color: #222222;
+  letter-spacing: 1px;
+}
 
 .image3 {
   position: absolute;
   top: 52.57rem;
   left: 52.07rem;
+}
+.caption3 {
+  position: absolute;
+  top: 50.5rem;
+  left: 83.14rem;
+  font-size: 20px;
+  color: #222222;
+  letter-spacing: 1px;
 }
 
 .image4 {
@@ -142,15 +193,39 @@ a {
   top: 62.57rem;
   left: 32.79rem;
 }
+.caption4 {
+  position: absolute;
+  top: 81.14rem;
+  left: 32.79rem;
+  font-size: 20px;
+  color: #222222;
+  letter-spacing: 1px;
+}
 
 .image5 {
   position: absolute;
   top: 95.36rem;
   left: 32.79rem;
 }
+.caption5 {
+  position: absolute;
+  top: 113.93rem;
+  left: 32.79rem;
+  font-size: 20px;
+  color: #222222;
+  letter-spacing: 1px;
+}
 
 .image6 {
   position: absolute;
   top: 95.36rem;
   left: 52.07rem;
+}
+.caption6 {
+  position: absolute;
+  top: 113.93rem;
+  left: 52.07rem;
+  font-size: 20px;
+  color: #222222;
+  letter-spacing: 1px;
 }
