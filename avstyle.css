@@ -118,3 +118,39 @@ a {
   top: 55.07rem;
   left: 35.64rem;
 }
+
+.image1 {
+  position: absolute;
+  top: 19.79rem;
+  left: 9.29rem;
+}
+
+.image2 {
+  position: absolute;
+  top: 33.29rem;
+  left: 52.07rem;
+}
+
+.image3 {
+  position: absolute;
+  top: 52.57rem;
+  left: 52.07rem;
+}
+
+.image4 {
+  position: absolute;
+  top: 62.57rem;
+  left: 32.79rem;
+}
+
+.image5 {
+  position: absolute;
+  top: 95.36rem;
+  left: 32.79rem;
+}
+
+.image6 {
+  position: absolute;
+  top: 95.36rem;
+  left: 52.07rem;
+}
