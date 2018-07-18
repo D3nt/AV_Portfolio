@@ -1,0 +1,120 @@
+/* Common settings across the web-site */
+* {
+  background-color: #FBFBFB;
+  box-sizing: border-box;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 14px; }
+
+/* Header Universal Description */
+.header {
+  top: 0vh;
+  height: 5vh;
+  position: -webkit-sticky; /* Safari */
+  position: sticky; }
+
+/* Footer Universal Description */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #222222;
+  text-align: center;}
+
+/* Body Universal Description */
+body {
+  margin: 0; }
+/* Remove underline from links*/
+a {
+  text-decoration: none; }
+
+/* Single Static Elements */
+#logo {
+  background: none;
+  border: 0;
+  float: left;
+  padding-left: 9vw;
+  padding-top: 4.2vh;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 1.33px;
+  color: #222222;
+  outline: 0; }
+
+.mystory {
+  background: none;
+  border: 0;
+  padding-right: 9.2vw;
+  padding-top: 4.5vh;
+  float: right;
+  letter-spacing: 1px;
+  color: #222222;
+  outline: 0; }
+
+.work {
+  background: none;
+  border: 0;
+  padding-right: 3.6%;
+  padding-top: 4.5vh;
+  float: right;
+  letter-spacing: 1px;
+  color: #222222;
+  outline: 0; }
+
+#caption {
+  background: none;
+  border: 0;
+  position:absolute;
+  left: 17.5rem;
+  top: 20.5rem;
+  transform: rotate(-90deg);
+  font-family: 'Oswald';
+  font-size: 50px;
+  color: #000000;
+  letter-spacing: 1px; }
+
+.verticalline {
+  border-left: 6px solid;
+  position: absolute;
+  height: 20.43rem;
+  left: 26.35rem;
+  top: 36.71rem; }
+
+.mainstorytext {
+  width: 21.86rem;
+  height: 31.21rem;
+  position: absolute;
+  left: 32.64rem;
+  top: 20.43rem;
+  color: #000000;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.designerphoto {
+  border: 0;
+  width: 30.36rem;
+  height: 45.57rem;
+  position: absolute;
+  top: 15.5rem;
+  left: 62.21rem;
+}
+
+.connectbuttonlinkedin {
+  border: 0;
+  width: 2.14rem;
+  height: 2.14rem;
+  position: absolute;
+  top: 55.07rem;
+  left: 32.64rem;
+}
+
+.connectbuttonemail {
+  border: 0;
+  width: 2.14rem;
+  height: 2.14rem;
+  position: absolute;
+  top: 55.07rem;
+  left: 35.64rem;
+}
